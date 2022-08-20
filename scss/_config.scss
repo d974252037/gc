@@ -43,6 +43,10 @@ p{
   color: $white_color;
 }
 
+//-- 英文字型 --
+.en_family{
+  font-family: $en_font_family;
+}
 
 //-- menu  --
 .menu_box{
@@ -96,11 +100,29 @@ p{
     font-size: 18px;
   }
   .en_txt{
-    font-family: 'Playfair Display', serif;
+    font-family: $en_font_family;
     font-weight: 500;
     font-size: 45px;
+    line-height: 1.2;
   }
 }
+
+
+//-- list title --
+.list_title{
+    font-weight: 500;
+    font-size: 21px;
+    letter-spacing: 4px;
+}
+
+//-- read More --
+.readmore_word{
+  font-family: $en_font_family;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
 
 footer{
   text-align: center;
