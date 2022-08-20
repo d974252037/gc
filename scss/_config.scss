@@ -88,8 +88,13 @@ p{
    
 }
 
-//-- top_title --
-.title_top{
+
+//-- top title --
+.top_title{
+  .ch_txt{
+    font-weight: 500;
+    font-size: 18px;
+  }
   .en_txt{
     font-family: 'Playfair Display', serif;
     font-weight: 500;
