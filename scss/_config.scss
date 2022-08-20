@@ -99,10 +99,13 @@ p{
     font-weight: 500;
     font-size: 45px;
     line-height: 1.2;
+<<<<<<< HEAD
   }
   .ch_txt{
     font-weight: 500;
     font-size: 18px;
+=======
+>>>>>>> c92d961 (更新read more)
   }
 }
 
@@ -112,6 +115,15 @@ p{
   font-weight: 500;
   font-size: 21px;
   letter-spacing: 4px;
+}
+
+//-- read More --
+.readmore_word{
+  font-family: $en_font_family;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 2px;
+
 }
 
 
