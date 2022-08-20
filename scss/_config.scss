@@ -4,7 +4,7 @@ $gold_color: #dcb078;
 //-- banner 底色 --
 $banner_bg_color: #271C1B;
 //-- 內容 遮罩底色 --
-$content_bg_color: #271c1bd6;
+$content_bg_color: rgb(32 23 22 / 95%);
 //-- footer 底色 --
 $footer_color: #270F06;
 
@@ -70,6 +70,8 @@ p{
         font-weight: 500;
         text-decoration: none;
         padding: 0 0.9vw;
+        font-family: $title_font_family;
+        font-weight: 300;
   
        .en_text{
         font-family: monospace;
