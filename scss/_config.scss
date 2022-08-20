@@ -43,6 +43,10 @@ p{
   color: $white_color;
 }
 
+//-- 英文字型 --
+.en_family{
+  font-family: $en_font_family;
+}
 
 //-- menu  --
 .menu_box{
@@ -91,11 +95,25 @@ p{
 //-- top_title --
 .title_top{
   .en_txt{
-    font-family: 'Playfair Display', serif;
+    font-family: $en_font_family;
     font-weight: 500;
     font-size: 45px;
+    line-height: 1.2;
+  }
+  .ch_txt{
+    font-weight: 500;
+    font-size: 18px;
   }
 }
+
+
+//-- list title --
+.list_title{
+  font-weight: 500;
+  font-size: 21px;
+  letter-spacing: 4px;
+}
+
 
 footer{
   text-align: center;
