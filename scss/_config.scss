@@ -102,20 +102,12 @@ p{
 >>>>>>> beaf0c5 (重新提交)
   }
   .en_txt{
-    font-family: 'Playfair Display', serif;
+    font-family: $en_font_family;
     font-weight: 500;
     font-size: 45px;
+    line-height: 1.2;
   }
 }
-
-
-//-- list title --
-.list_title{
-    font-weight: 500;
-    font-size: 21px;
-    letter-spacing: 4px;
-}
-
 
 footer{
   text-align: center;
